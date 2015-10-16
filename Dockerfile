@@ -5,7 +5,7 @@ MAINTAINER xqbumu "xqbumu@gmail.com"
 RUN apt-get update
 
 # gotty
-#RUN apt-get install -y golang
+#RUN apt-get install -y golang git
 #RUN go get github.com/yudai/gotty
 
 # wetty
