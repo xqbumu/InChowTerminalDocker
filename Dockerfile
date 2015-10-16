@@ -9,7 +9,7 @@ RUN apt-get update
 #RUN go get github.com/yudai/gotty
 
 # wetty
-RUN apt-get install -y npm git
+RUN apt-get install -y npm git nodejs
 RUN cd /opt
 RUN git clone https://github.com/krishnasrinivas/wetty
 RUN cd wetty
