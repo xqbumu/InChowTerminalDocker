@@ -5,11 +5,11 @@ MAINTAINER xqbumu "xqbumu@gmail.com"
 RUN apt-get update
 
 # gotty
-#RUN apt-get install -y golang git
+#RUN apt-get install -y golang
 #RUN go get github.com/yudai/gotty
 
 # wetty
-RUN apt-get install -y npm
+RUN apt-get install -y npm git
 RUN cd /opt
 RUN git clone https://github.com/krishnasrinivas/wetty
 RUN cd wetty
